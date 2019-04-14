@@ -39,6 +39,19 @@
     ],
     "volumes": ["/usr/local/apache2/htdocs/"]
   },
+    {
+    "type": "container",
+    "title": "Bens Httpd",
+    "description": "Bens Open-source HTTP server",
+    "categories": ["webserver"],
+    "platform": "linux",
+    "logo": "https://github.com/bethington/templates/raw/master/logos/httpd.png",
+    "image": "httpd:latest",
+    "ports": [
+      "80/tcp"
+    ],
+    "volumes": ["/usr/local/apache2/htdocs/"]
+  },
   {
     "type": "container",
     "title": "Caddy",
